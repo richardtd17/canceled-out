@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8309CFA12AC7E212006BDCA2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309CFA02AC7E212006BDCA2 /* HeaderView.swift */; };
+		8309CFA32AC7E7B0006BDCA2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309CFA22AC7E7B0006BDCA2 /* ColorExtension.swift */; };
+		831BE1CF2AC8EDF9006B24EE /* AddPlanFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1CE2AC8EDF9006B24EE /* AddPlanFormView.swift */; };
+		831BE1D12ACA0C1B006B24EE /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1D02ACA0C1B006B24EE /* IntExtension.swift */; };
+		831BE1D62ACA1048006B24EE /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1D52ACA1048006B24EE /* DateHelper.swift */; };
+		831BE1D92ACA175D006B24EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1D82ACA175D006B24EE /* HomeView.swift */; };
+		831BE1DB2ACA1CF9006B24EE /* DateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1DA2ACA1CF9006B24EE /* DateHeaderView.swift */; };
+		831BE1DD2ACCBFB4006B24EE /* CancelledOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1DC2ACCBFB4006B24EE /* CancelledOutView.swift */; };
+		831BE1DF2ACCC2FC006B24EE /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1DE2ACCC2FC006B24EE /* GradientBackground.swift */; };
 		839688982AC7CD640003F90A /* Canceled_Out_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688972AC7CD640003F90A /* Canceled_Out_ProjectApp.swift */; };
 		8396889A2AC7CD640003F90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688992AC7CD640003F90A /* ContentView.swift */; };
 		8396889C2AC7CD670003F90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8396889B2AC7CD670003F90A /* Assets.xcassets */; };
@@ -14,6 +23,9 @@
 		839688A92AC7CD670003F90A /* Canceled_Out_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688A82AC7CD670003F90A /* Canceled_Out_ProjectTests.swift */; };
 		839688B32AC7CD670003F90A /* Canceled_Out_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688B22AC7CD670003F90A /* Canceled_Out_ProjectUITests.swift */; };
 		839688B52AC7CD670003F90A /* Canceled_Out_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688B42AC7CD670003F90A /* Canceled_Out_ProjectUITestsLaunchTests.swift */; };
+		83AE84372AC8866000F2DCE9 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE84362AC8866000F2DCE9 /* FooterView.swift */; };
+		83AE84392AC88A7B00F2DCE9 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE84382AC88A7B00F2DCE9 /* DataTypes.swift */; };
+		83AE843B2AC88CB100F2DCE9 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE843A2AC88CB100F2DCE9 /* PlanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8309CFA02AC7E212006BDCA2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8309CFA22AC7E7B0006BDCA2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		831BE1CE2AC8EDF9006B24EE /* AddPlanFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlanFormView.swift; sourceTree = "<group>"; };
+		831BE1D02ACA0C1B006B24EE /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		831BE1D52ACA1048006B24EE /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		831BE1D82ACA175D006B24EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		831BE1DA2ACA1CF9006B24EE /* DateHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeaderView.swift; sourceTree = "<group>"; };
+		831BE1DC2ACCBFB4006B24EE /* CancelledOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelledOutView.swift; sourceTree = "<group>"; };
+		831BE1DE2ACCC2FC006B24EE /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		839688942AC7CD640003F90A /* Canceled Out Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canceled Out Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839688972AC7CD640003F90A /* Canceled_Out_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canceled_Out_ProjectApp.swift; sourceTree = "<group>"; };
 		839688992AC7CD640003F90A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +65,9 @@
 		839688AE2AC7CD670003F90A /* Canceled Out ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canceled Out ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839688B22AC7CD670003F90A /* Canceled_Out_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canceled_Out_ProjectUITests.swift; sourceTree = "<group>"; };
 		839688B42AC7CD670003F90A /* Canceled_Out_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canceled_Out_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83AE84362AC8866000F2DCE9 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		83AE84382AC88A7B00F2DCE9 /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
+		83AE843A2AC88CB100F2DCE9 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831BE1D22ACA0C28006B24EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8309CFA22AC7E7B0006BDCA2 /* ColorExtension.swift */,
+				831BE1D02ACA0C1B006B24EE /* IntExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		831BE1D32ACA0CD0006B24EE /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				83AE843A2AC88CB100F2DCE9 /* PlanView.swift */,
+				8309CFA02AC7E212006BDCA2 /* HeaderView.swift */,
+				83AE84362AC8866000F2DCE9 /* FooterView.swift */,
+				831BE1DA2ACA1CF9006B24EE /* DateHeaderView.swift */,
+				831BE1DE2ACCC2FC006B24EE /* GradientBackground.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		831BE1D42ACA1032006B24EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				831BE1D52ACA1048006B24EE /* DateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		831BE1D72ACA173B006B24EE /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				831BE1CE2AC8EDF9006B24EE /* AddPlanFormView.swift */,
+				831BE1D82ACA175D006B24EE /* HomeView.swift */,
+				831BE1DC2ACCBFB4006B24EE /* CancelledOutView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 		8396888B2AC7CD640003F90A = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +157,13 @@
 		839688962AC7CD640003F90A /* Canceled Out Project */ = {
 			isa = PBXGroup;
 			children = (
+				831BE1D42ACA1032006B24EE /* Helpers */,
 				839688972AC7CD640003F90A /* Canceled_Out_ProjectApp.swift */,
 				839688992AC7CD640003F90A /* ContentView.swift */,
+				83AE84382AC88A7B00F2DCE9 /* DataTypes.swift */,
+				831BE1D72ACA173B006B24EE /* Tabs */,
+				831BE1D22ACA0C28006B24EE /* Extensions */,
+				831BE1D32ACA0CD0006B24EE /* ReusableViews */,
 				8396889B2AC7CD670003F90A /* Assets.xcassets */,
 				8396889D2AC7CD670003F90A /* Preview Content */,
 			);
@@ -258,7 +326,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8396889A2AC7CD640003F90A /* ContentView.swift in Sources */,
+				8309CFA12AC7E212006BDCA2 /* HeaderView.swift in Sources */,
+				831BE1DD2ACCBFB4006B24EE /* CancelledOutView.swift in Sources */,
 				839688982AC7CD640003F90A /* Canceled_Out_ProjectApp.swift in Sources */,
+				831BE1CF2AC8EDF9006B24EE /* AddPlanFormView.swift in Sources */,
+				831BE1DF2ACCC2FC006B24EE /* GradientBackground.swift in Sources */,
+				83AE84392AC88A7B00F2DCE9 /* DataTypes.swift in Sources */,
+				831BE1DB2ACA1CF9006B24EE /* DateHeaderView.swift in Sources */,
+				831BE1D92ACA175D006B24EE /* HomeView.swift in Sources */,
+				831BE1D62ACA1048006B24EE /* DateHelper.swift in Sources */,
+				831BE1D12ACA0C1B006B24EE /* IntExtension.swift in Sources */,
+				83AE84372AC8866000F2DCE9 /* FooterView.swift in Sources */,
+				83AE843B2AC88CB100F2DCE9 /* PlanView.swift in Sources */,
+				8309CFA32AC7E7B0006BDCA2 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
