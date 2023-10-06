@@ -16,8 +16,8 @@
 		831BE1DB2ACA1CF9006B24EE /* DateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1DA2ACA1CF9006B24EE /* DateHeaderView.swift */; };
 		831BE1DD2ACCBFB4006B24EE /* CancelledOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1DC2ACCBFB4006B24EE /* CancelledOutView.swift */; };
 		831BE1DF2ACCC2FC006B24EE /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BE1DE2ACCC2FC006B24EE /* GradientBackground.swift */; };
-		8345483B2ACD6623008738AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688992AC7CD640003F90A /* ContentView.swift */; };
 		839688982AC7CD640003F90A /* Canceled_Out_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688972AC7CD640003F90A /* Canceled_Out_ProjectApp.swift */; };
+		8396889A2AC7CD640003F90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688992AC7CD640003F90A /* ContentView.swift */; };
 		8396889C2AC7CD670003F90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8396889B2AC7CD670003F90A /* Assets.xcassets */; };
 		8396889F2AC7CD670003F90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8396889E2AC7CD670003F90A /* Preview Assets.xcassets */; };
 		839688A92AC7CD670003F90A /* Canceled_Out_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839688A82AC7CD670003F90A /* Canceled_Out_ProjectTests.swift */; };
@@ -325,9 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8396889A2AC7CD640003F90A /* ContentView.swift in Sources */,
 				8309CFA12AC7E212006BDCA2 /* HeaderView.swift in Sources */,
 				831BE1DD2ACCBFB4006B24EE /* CancelledOutView.swift in Sources */,
-				8345483B2ACD6623008738AE /* ContentView.swift in Sources */,
 				839688982AC7CD640003F90A /* Canceled_Out_ProjectApp.swift in Sources */,
 				831BE1CF2AC8EDF9006B24EE /* AddPlanFormView.swift in Sources */,
 				831BE1DF2ACCC2FC006B24EE /* GradientBackground.swift in Sources */,
